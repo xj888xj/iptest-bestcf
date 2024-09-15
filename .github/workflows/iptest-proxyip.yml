@@ -53,8 +53,7 @@ jobs:
        
           # 将排序后的DataFrame保存回CSV文件
           df_sorted.to_csv('latest_sorted.csv', index=False)
-          #####################################################################################          
-          import pandas as pd
+          ##################################################################################### 
           # 读取 CSV 文件
           df = pd.read_csv('latest_sorted.csv')
           
