@@ -1,6 +1,7 @@
 name: 'GitHub Actions proxyip '
 
 on:
+  workflow_dispatch:
   push:
     branches: 
       - main
